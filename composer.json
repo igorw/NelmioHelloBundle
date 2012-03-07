@@ -4,5 +4,9 @@
     "require": {
         "symfony/framework-bundle": "2.1.*",
         "doctrine/dbal": "2.2.*"
-    }
+    },
+    "autoload": {
+        "psr-0": { "Nelmio": "" }
+    },
+    "target-dir": "Nelmio/HelloBundle"
 }
