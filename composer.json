@@ -1,0 +1,8 @@
+{
+    "name": "nelmio/hello-bundle",
+    "type": "symfony-bundle",
+    "require": {
+        "symfony/framework-bundle": "2.1.*",
+        "doctrine/dbal": "2.2.*"
+    }
+}
