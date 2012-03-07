@@ -16,7 +16,7 @@ class DefaultController extends Controller
     {
         $conn = $this->get('doctrine.dbal.default_connection');
 
-        $sql = 'SELECT CONCAT("Hello ", ?)';
+        $sql = 'SELECT CONCAT("Hallo ", ?)';
         $hello = $conn->fetchColumn($sql, array($name));
 
         return array('hello' => $hello);
